@@ -1,16 +1,20 @@
-# earthquake
+# Earthquake App 🌍📱
 
-A new Flutter project.
+A Flutter-based mobile application that provides real-time earthquake data from the USGS (United States Geological Survey) API. The app allows users to view recent earthquakes, filter results by magnitude, location, and time, and visualize earthquake locations on Google Maps. Built with Provider for state management, it offers a user-friendly way to stay informed about seismic activity.
 
-## Getting Started
+## Key Features
 
-This project is a starting point for a Flutter application.
+- **Real-Time Earthquake Data**: Fetch and display earthquake data from the USGS API.
+- **Interactive Map Integration**: Tap on an earthquake entry to open its location in Google Maps.
+- **Customizable Filters**: Filter earthquakes by magnitude, location, and time range.
+- **Sorting Options**: Sort earthquake data by magnitude or time (ascending/descending).
+- **Geolocation**: Automatically detect the user's location and show nearby earthquakes.
+- **User-Friendly Interface**: Clean and intuitive UI with a dark theme.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Frontend**: Flutter, Dart
+- **State Management**: Provider
+- **Geolocation**: Geolocator, Geocoding
+- **API Integration**: HTTP
+- **Tools**: Android Studio, Postman
